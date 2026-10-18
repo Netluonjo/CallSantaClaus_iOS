@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		SC0100012C9F000100000001 /* CallSantaClausApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200012C9F000100000001 /* CallSantaClausApp.swift */; };
+		SC0100022C9F000100000001 /* CallModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200022C9F000100000001 /* CallModels.swift */; };
+		SC0100032C9F000100000001 /* PreferencesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200032C9F000100000001 /* PreferencesService.swift */; };
+		SC0100042C9F000100000001 /* SantaDialogueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200042C9F000100000001 /* SantaDialogueManager.swift */; };
+		SC0100052C9F000100000001 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200052C9F000100000001 /* SoundManager.swift */; };
+		SC0100062C9F000100000001 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200062C9F000100000001 /* CameraManager.swift */; };
+		SC0100072C9F000100000001 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200072C9F000100000001 /* NotificationService.swift */; };
+		SC0100082C9F000100000001 /* ChristmasTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200082C9F000100000001 /* ChristmasTheme.swift */; };
+		SC0100092C9F000100000001 /* SnowfallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200092C9F000100000001 /* SnowfallView.swift */; };
+		SC01000A2C9F000100000001 /* MainDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC02000A2C9F000100000001 /* MainDashboardView.swift */; };
+		SC01000B2C9F000100000001 /* IncomingCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC02000B2C9F000100000001 /* IncomingCallView.swift */; };
+		SC01000C2C9F000100000001 /* VideoCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC02000C2C9F000100000001 /* VideoCallView.swift */; };
+		SC01000D2C9F000100000001 /* VoiceCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC02000D2C9F000100000001 /* VoiceCallView.swift */; };
+		SC01000E2C9F000100000001 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC02000E2C9F000100000001 /* ChatView.swift */; };
+		SC01000F2C9F000100000001 /* CountdownBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC02000F2C9F000100000001 /* CountdownBannerView.swift */; };
+		SC0100102C9F000100000001 /* AudioWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200102C9F000100000001 /* AudioWaveformView.swift */; };
+		SC0100112C9F000100000001 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200112C9F000100000001 /* CameraPreviewView.swift */; };
+		SC0100122C9F000100000001 /* ChildProfileSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200122C9F000100000001 /* ChildProfileSheet.swift */; };
+		SC0100132C9F000100000001 /* ScheduleCallSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200132C9F000100000001 /* ScheduleCallSheet.swift */; };
+		SC0100142C9F000100000001 /* VipPassSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = SC0200142C9F000100000001 /* VipPassSheet.swift */; };
+		SC0100152C9F000100000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = SC0200152C9F000100000001 /* Assets.xcassets */; };
+		SC0100162C9F000100000001 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = SC0200172C9F000100000001 /* Resources */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		SC0000012C9F000100000001 /* CallSantaClaus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallSantaClaus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		SC0200012C9F000100000001 /* CallSantaClausApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSantaClausApp.swift; sourceTree = "<group>"; };
+		SC0200022C9F000100000001 /* CallModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallModels.swift; sourceTree = "<group>"; };
+		SC0200032C9F000100000001 /* PreferencesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesService.swift; sourceTree = "<group>"; };
+		SC0200042C9F000100000001 /* SantaDialogueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaDialogueManager.swift; sourceTree = "<group>"; };
+		SC0200052C9F000100000001 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		SC0200062C9F000100000001 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		SC0200072C9F000100000001 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		SC0200082C9F000100000001 /* ChristmasTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTheme.swift; sourceTree = "<group>"; };
+		SC0200092C9F000100000001 /* SnowfallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowfallView.swift; sourceTree = "<group>"; };
+		SC02000A2C9F000100000001 /* MainDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardView.swift; sourceTree = "<group>"; };
+		SC02000B2C9F000100000001 /* IncomingCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingCallView.swift; sourceTree = "<group>"; };
+		SC02000C2C9F000100000001 /* VideoCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallView.swift; sourceTree = "<group>"; };
+		SC02000D2C9F000100000001 /* VoiceCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCallView.swift; sourceTree = "<group>"; };
+		SC02000E2C9F000100000001 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		SC02000F2C9F000100000001 /* CountdownBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownBannerView.swift; sourceTree = "<group>"; };
+		SC0200102C9F000100000001 /* AudioWaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWaveformView.swift; sourceTree = "<group>"; };
+		SC0200112C9F000100000001 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		SC0200122C9F000100000001 /* ChildProfileSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildProfileSheet.swift; sourceTree = "<group>"; };
+		SC0200132C9F000100000001 /* ScheduleCallSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCallSheet.swift; sourceTree = "<group>"; };
+		SC0200142C9F000100000001 /* VipPassSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipPassSheet.swift; sourceTree = "<group>"; };
+		SC0200152C9F000100000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		SC0200162C9F000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		SC0200172C9F000100000001 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		SC0400012C9F000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		SC0500012C9F000100000001 = {
+			isa = PBXGroup;
+			children = (
+				SC0500022C9F000100000001 /* CallSantaClaus */,
+				SC0500092C9F000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		SC0500022C9F000100000001 /* CallSantaClaus */ = {
+			isa = PBXGroup;
+			children = (
+				SC0500032C9F000100000001 /* App */,
+				SC0500042C9F000100000001 /* Models */,
+				SC0500052C9F000100000001 /* Services */,
+				SC0500062C9F000100000001 /* Theme */,
+				SC0500072C9F000100000001 /* Views */,
+				SC0200152C9F000100000001 /* Assets.xcassets */,
+				SC0200172C9F000100000001 /* Resources */,
+			);
+			path = CallSantaClaus;
+			sourceTree = "<group>";
+		};
+		SC0500032C9F000100000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				SC0200012C9F000100000001 /* CallSantaClausApp.swift */,
+				SC0200162C9F000100000001 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		SC0500042C9F000100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				SC0200022C9F000100000001 /* CallModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		SC0500052C9F000100000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				SC0200032C9F000100000001 /* PreferencesService.swift */,
+				SC0200042C9F000100000001 /* SantaDialogueManager.swift */,
+				SC0200052C9F000100000001 /* SoundManager.swift */,
+				SC0200062C9F000100000001 /* CameraManager.swift */,
+				SC0200072C9F000100000001 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		SC0500062C9F000100000001 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				SC0200082C9F000100000001 /* ChristmasTheme.swift */,
+				SC0200092C9F000100000001 /* SnowfallView.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		SC0500072C9F000100000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				SC0500082C9F000100000001 /* Components */,
+				SC02000A2C9F000100000001 /* MainDashboardView.swift */,
+				SC02000B2C9F000100000001 /* IncomingCallView.swift */,
+				SC02000C2C9F000100000001 /* VideoCallView.swift */,
+				SC02000D2C9F000100000001 /* VoiceCallView.swift */,
+				SC02000E2C9F000100000001 /* ChatView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		SC0500082C9F000100000001 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				SC02000F2C9F000100000001 /* CountdownBannerView.swift */,
+				SC0200102C9F000100000001 /* AudioWaveformView.swift */,
+				SC0200112C9F000100000001 /* CameraPreviewView.swift */,
+				SC0200122C9F000100000001 /* ChildProfileSheet.swift */,
+				SC0200132C9F000100000001 /* ScheduleCallSheet.swift */,
+				SC0200142C9F000100000001 /* VipPassSheet.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		SC0500092C9F000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				SC0000012C9F000100000001 /* CallSantaClaus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		SC0600012C9F000100000001 /* CallSantaClaus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = SC0700012C9F000100000001 /* Build configuration list for PBXNativeTarget "CallSantaClaus" */;
+			buildPhases = (
+				SC0300012C9F000100000001 /* Sources */,
+				SC0400012C9F000100000001 /* Frameworks */,
+				SC0300022C9F000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallSantaClaus;
+			productName = CallSantaClaus;
+			productReference = SC0000012C9F000100000001 /* CallSantaClaus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		SC0800012C9F000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					SC0600012C9F000100000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = SC0700022C9F000100000001 /* Build configuration list for PBXProject "CallSantaClaus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = SC0500012C9F000100000001;
+			productRefGroup = SC0500092C9F000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				SC0600012C9F000100000001 /* CallSantaClaus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		SC0300022C9F000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				SC0100152C9F000100000001 /* Assets.xcassets in Resources */,
+				SC0100162C9F000100000001 /* Resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SC0300012C9F000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				SC0100012C9F000100000001 /* CallSantaClausApp.swift in Sources */,
+				SC0100022C9F000100000001 /* CallModels.swift in Sources */,
+				SC0100032C9F000100000001 /* PreferencesService.swift in Sources */,
+				SC0100042C9F000100000001 /* SantaDialogueManager.swift in Sources */,
+				SC0100052C9F000100000001 /* SoundManager.swift in Sources */,
+				SC0100062C9F000100000001 /* CameraManager.swift in Sources */,
+				SC0100072C9F000100000001 /* NotificationService.swift in Sources */,
+				SC0100082C9F000100000001 /* ChristmasTheme.swift in Sources */,
+				SC0100092C9F000100000001 /* SnowfallView.swift in Sources */,
+				SC01000A2C9F000100000001 /* MainDashboardView.swift in Sources */,
+				SC01000B2C9F000100000001 /* IncomingCallView.swift in Sources */,
+				SC01000C2C9F000100000001 /* VideoCallView.swift in Sources */,
+				SC01000D2C9F000100000001 /* VoiceCallView.swift in Sources */,
+				SC01000E2C9F000100000001 /* ChatView.swift in Sources */,
+				SC01000F2C9F000100000001 /* CountdownBannerView.swift in Sources */,
+				SC0100102C9F000100000001 /* AudioWaveformView.swift in Sources */,
+				SC0100112C9F000100000001 /* CameraPreviewView.swift in Sources */,
+				SC0100122C9F000100000001 /* ChildProfileSheet.swift in Sources */,
+				SC0100132C9F000100000001 /* ScheduleCallSheet.swift in Sources */,
+				SC0100142C9F000100000001 /* VipPassSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		SC0B00012C9F000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		SC0B00022C9F000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = "wholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		SC0B00032C9F000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CallSantaClaus/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Santa Call";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.festive.santacall.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		SC0B00042C9F000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CallSantaClaus/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Santa Call";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.festive.santacall.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		SC0700012C9F000100000001 /* Build configuration list for PBXNativeTarget "CallSantaClaus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				SC0B00032C9F000100000001 /* Debug */,
+				SC0B00042C9F000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		SC0700022C9F000100000001 /* Build configuration list for PBXProject "CallSantaClaus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				SC0B00012C9F000100000001 /* Debug */,
+				SC0B00022C9F000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = SC0800012C9F000100000001 /* Project object */;
+}
