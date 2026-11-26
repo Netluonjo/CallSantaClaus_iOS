@@ -1,5 +1,9 @@
 import SwiftUI
 
+extension CallType: Identifiable {
+    public var id: Self { self }
+}
+
 public struct MainDashboardView: View {
     @ObservedObject var preferencesService = PreferencesService.shared
     @ObservedObject var notificationService = NotificationService.shared
